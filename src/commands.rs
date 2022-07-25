@@ -12,8 +12,6 @@ pub fn list_dangling_links() {
 }
 
 pub fn list_empty_files(working_directory: String) {
-  
-
   let paths = collect_files(Path::new(&working_directory));
 
   let mut empty_file_paths = Vec::new();

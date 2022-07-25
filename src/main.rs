@@ -17,8 +17,8 @@ enum Commands {
   ConvertDates,
   ListDanglingLinks,
   ListEmptyFiles {
-      #[clap(short, long, value_parser, default_value = "")]
-      directory: String,
+    #[clap(short, long, value_parser, default_value = "")]
+    directory: String,
   },
   ListReferencelessFiles
 }

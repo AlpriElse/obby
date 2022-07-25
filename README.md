@@ -1,6 +1,6 @@
 # obby
 
-A CLI for wranling Obsidian
+A CLI for wrangling Obsidian markdown files
 
 ### Inspiration
 
